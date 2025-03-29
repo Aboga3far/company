@@ -71,15 +71,18 @@ header a{
 
 .main
 {
+
   text-align: center;
   justify-content: center;
   padding: 70px 0px;
+  margin: 5% 0px;
 }
 
 .main h1{
   color: #fbe4d8;
   animation: fadein 2s ease-in-out forwards;
   opacity: 0;
+  font-size: 1.5em;
 }
 
 .main p{
@@ -152,12 +155,49 @@ span{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 682px;
     object-fit: cover;
     z-index: -1; /* Send it behind content */
     border-radius: 0px 0px 50px 50px ;
 }
 
+.service
+{
+  background-color: black;
+  padding-top: 200px;
+}
+
+.title
+{
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.card
+{
+  display: flex;
+  background-color: #dfb6b2;
+  width: 22.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name
+{
+  text-align: center;
+}
+
+.icon
+{
+  font-size: 100px;
+  text-align: center;
+}
 
 .poppins-thin {
   font-family: "Poppins", sans-serif;
@@ -202,6 +242,7 @@ span{
 }
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: black ;
 }
 
 .poppins-extrabold {
